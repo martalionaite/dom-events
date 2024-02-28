@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DOM events</title>
     <link rel="stylesheet" href="../css/base.css">
-    <link rel="stylesheet" href="../css/pages/single-button-click.css">
+    <link rel="stylesheet" href="../css/pages/counter.css">
 </head>
 
 <body>
@@ -15,16 +15,19 @@
     </header>
 
     <main>
-        <h1 class="main-title">Single button click page</h1>
-        <p>Open console</p>
+        <h1 class="main-title">Counter page</h1>
 
         <div class="content">
-            <button id="first" class="btn">Click me!</button>
-            <button id="second" class="btn">Click me too!</button>
+            <button id="plus" class="btn">+</button>
+            <button id="minus" class="btn">-</button>
+        </div>
+
+        <div class="content">
+            <p id="screen" class="screen">Score: _</p>
         </div>
     </main>
 
-    <script type="module" src="../js/single-button-click.js"></script>
+    <script type="module" src="../js/counter.js"></script>
 </body>
 
 </html>
